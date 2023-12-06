@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class CourseJDBCRepository implements CourseRepository{
+class CourseJDBCRepository implements CourseRepository{
     private static final String H2_DATABASE_URL =
             "jdbc:h2:file:%s;AUTO_SERVER=TRUE;INIT=RUNSCRIPT from './db_init.sql'";
     private static final String INSERT_COURSE = """
