@@ -2,7 +2,7 @@ package com.pluralsight.courseinfo.domain;
 
 import org.junit.jupiter.api.Test;
 
-class courseTest {
+class CourseTest {
 
     @Test
     void filled() {

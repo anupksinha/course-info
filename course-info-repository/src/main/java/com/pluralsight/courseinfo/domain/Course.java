@@ -1,7 +1,7 @@
 package com.pluralsight.courseinfo.domain;
 
-public record course(String id, String name, long length, String url) {
-    public course{
+public record Course(String id, String name, long length, String url) {
+    public Course{
         Filled(id);
         Filled(name);
         Filled(url);
