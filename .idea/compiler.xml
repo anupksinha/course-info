@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="course-info-repository" />
         <module name="course-info-cli" />
+        <module name="course-info-server" />
       </profile>
     </annotationProcessing>
   </component>
